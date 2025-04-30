@@ -48,7 +48,28 @@ const songs = [
         displayName: 'Dooriyan',
         cover: 'assets/6.jpg',
         artist: 'Mohit Chauhan',
-    }
+    },
+    
+    {
+        path: 'assets/7.mp3',
+        displayName: 'Piya tu Piya',
+        cover: 'assets/7.jpg',
+        artist: 'Arijit Singh/Chinmayi',
+    },
+    
+    {
+        path: 'assets/8.mp3',
+        displayName: 'Bin Tere',
+        cover: 'assets/8.jpg',
+        artist: 'Shafqat Amanat Ali/Sunidhi Chauhan',
+    },
+    
+    {
+        path: 'assets/9.mp3',
+        displayName: 'O Saajna',
+        cover: 'assets/9.jpg',
+        artist: 'Akhil Sachdeva',
+    },
 ];
 
 let musicIndex = 0;
