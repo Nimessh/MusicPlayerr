@@ -59,7 +59,6 @@ body{
     }
 }
 
-
 .container{
     background-color: #e7e7e7;
     height: 500px;
@@ -139,28 +138,82 @@ h3{
     justify-content: space-between;
 }
 
-.player-controls{
+.player-controls {
+    display: flex;
     position: relative;
-    top: -15px;
-    left: 120px;
-    width: 200px;
+    top: -10px;
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
-.fa-solid{
+.control-button {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Positioning control classes */
+.align-left {
+    justify-content: flex-start;
+}
+
+.align-center {
+    justify-content: center;
+}
+
+.align-right {
+    justify-content: flex-end;
+}
+
+/* Icon styling */
+.player-controls i {
     font-size: 30px;
     color: #666;
-    margin-right: 30px;
     cursor: pointer;
     user-select: none;
     transition: all 0.3s ease;
 }
 
-.fa-solid:hover{
+.play-button {
+    font-size: 44px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#next {
+    font-size: 38px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#prev {
+    margin-left: -24.5px; /* Adjust the value as needed */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#repeat {
+    margin-left: 30px;
+}
+#repeat.active {
+    color: #000;
+}
+
+.shuffle-button {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+/* Hover effects */
+.player-controls i:hover {
     filter: brightness(40%);
 }
 
-.play-button{
-    font-size: 44px;
-    position: relative;
-    top: 3px;
+#shuffle.active {
+    color: #000;
 }
