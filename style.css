@@ -186,13 +186,13 @@ h3{
 }
 
 #next {
-    font-size: 38px;
+    font-size: 32px;
     margin-right: auto;
     margin-left: auto;
 }
 
 #prev {
-    margin-left: -24.5px; /* Adjust the value as needed */
+    font-size:32px; /* Adjust the value as needed */
     margin-right: auto;
     margin-left: auto;
 }
