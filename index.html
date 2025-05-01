@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <title>Music Player</title>
 </head>
-
 <body>
 
     <div class="background">
@@ -33,14 +31,24 @@
         </div>
 
         <div class="player-controls">
-            <i class="fa-solid fa-backward" title="Previous" id="prev"></i>
-            <i class="fa-solid fa-play play-button" title="Play" id="play"></i>
-            <i class="fa-solid fa-forward" title="Next" id="next"></i>
+            <div class="control-button align-left">
+                <i class="fa-solid fa-shuffle" id="shuffle" title="Shuffle"></i>
+            </div>
+            <div class="control-button align-left">
+                <i class="fa-solid fa-backward" id="prev" title="Previous"></i>
+            </div>
+            <div class="control-button align-center">
+                <i class="fa-solid fa-play play-button" id="play" title="Play"></i>
+            </div>
+            <div class="control-button align-left">
+                <i class="fa-solid fa-forward" id="next" title="Next"></i>
+            </div>
+            <div class="control-button align-left">
+                <i class="fa-solid fa-repeat" id="repeat" title="Repeat"></i>
+            </div>
         </div>
-
     </div>
 
     <script src="script.js"></script>
 </body>
-
 </html>
